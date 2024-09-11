@@ -1,0 +1,41 @@
+{
+	"folders": {},
+	"connections": {
+		"oracle_thin-191e14ab972-6d8239a8032712b1": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "PDPP01",
+			"save-password": true,
+			"configuration": {
+				"database": "PDPP01",
+				"url": "jdbc:oracle:thin:@(DESCRIPTION \u003d (ADDRESS_LIST \u003d (ADDRESS \u003d (PROTOCOL \u003d TCP)(HOST \u003d 181.41.168.120)(PORT \u003d 1521)) ) (CONNECT_DATA \u003d (SERVICE_NAME \u003d PDBP01) ) )",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\Oracle Client for Microsoft Tools",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-connection-type@": "TNS",
+					"@dbeaver-tns-path@": "C:\\instantclient_21_7\\network\\admin",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Desenvolvimento",
+			"color": "255,255,255",
+			"description": "Banco de dados de desenvolvimento",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
