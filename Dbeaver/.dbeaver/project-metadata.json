@@ -1,1 +1,1 @@
-{"resources":{"Scripts/CAP_TESTE_.sql":{"default-datasource":"oracle_thin-191e14ab972-6d8239a8032712b1","default-schema":"RGSH"}}}
+{"resources":{"Scripts/CAP_TESTE_.sql":{"default-datasource":"oracle_thin-191e14ab972-6d8239a8032712b1","default-schema":"RGSH"},"Scripts/VW_LANCAMENTOS_V1.sql":{"default-datasource":"oracle_thin-191e14ab972-6d8239a8032712b1","default-schema":"RGSH"}}}
